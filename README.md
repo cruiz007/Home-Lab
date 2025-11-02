@@ -1,4 +1,6 @@
-# Masking your egress IP with ZeroTier: a step-by-step guide for running an Exit Node for many servers — no VPN subscription required
+# Home-Lab
+**Purpose:** Masking your egress IP with ZeroTier: a step-by-step guide for running an Exit Node for many servers — no VPN subscription required
+
 
 **Target User:** Individuals who want to *mask the public IP* of many servers and machines (e.g., lab hosts, cloud VMs, home lab) by routing their outbound internet through one or more trusted VMs running ZeroTier exit nodes. This avoids paying for a commercial VPN and gives you control over where traffic egresses.
 
@@ -121,4 +123,4 @@ Then verify with `route print` or `netstat -rn` and `curl ifconfig.me`.
 - Keep exit node updated and monitored.  
 - Rotate credentials or ZeroTier IDs if sharing access.  
 - Monitor bandwidth and connection count if handling many peers.
-# Home-Lab
+
